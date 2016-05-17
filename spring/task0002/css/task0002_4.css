@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0
+}
+#stage{
+	margin: 10px;
+}
+#display{
+	width: 200px;
+	display: none;
+	border: 1px solid grey
+}
+
+#display ul li{
+	list-style: none;
+}
+
+#display ul li span{
+	color: red
+}
+.selected{
+		background-color: green;
+}

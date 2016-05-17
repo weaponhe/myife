@@ -80,12 +80,12 @@ function uniqArray(arr) {
 	for (var i = 0, len = arr.length; i < len; i++) {
 		switch (typeof arr[i]) {
 			case "number":
-				if (!obj[arr[i]]) {
+				if (!numObj[arr[i]]) {
 					numObj[arr[i]] = true;
 				}
 				break;
 			case "string":
-				if (!obj[arr[i]]) {
+				if (!strObj[arr[i]]) {
 					strObj[arr[i]] = true;
 				}
 		}

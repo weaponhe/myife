@@ -85,3 +85,10 @@ function liClicker(event) {
 	console.log(event);
 }
 $.delegate('#list', "li", "click", liClicker);
+
+setCookie("name", "weapon", 10);
+
+
+
+var xhr = new XMLHttpRequest();
+xhr.open("get", "example.txt", false);

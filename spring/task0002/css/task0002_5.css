@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 150px;
+	height: 300px;
+	border: 1px solid #000;
+	float: left;
+	margin:100px;
+}
+.brick{
+	height: 48px;
+	width: 148px;
+	border: 1px solid #000;
+	background-color: red
+}
